@@ -13,9 +13,6 @@ This repository provides a pipeline for generating an Arabic OCR dataset. The pi
 - **State Persistence**: Saves processing state to allow resumption from the last processed record.
 
 ## Requirements
-### System Dependencies
-- [LibreOffice](https://www.libreoffice.org/) (for DOCX to PDF conversion)
-- [Ghostscript](https://www.ghostscript.com/) (for PDF to image conversion)
 
 ### Python Dependencies
 Install the required Python libraries using:
