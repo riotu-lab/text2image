@@ -19,6 +19,14 @@ Install the required Python libraries using:
 ```sh
 pip install datasets python-docx pdf2image PIL requests huggingface_hub
 ```
+## Technical Specifications & Environment
+
+To ensure full reproducibility of the SARD dataset generation and proper handling of Arabic Complex Text Layout (CTL), the following software environment was utilized:
+
+*   **Python:** 3.11
+*   **python-docx:** 1.2.0
+*   **LibreOffice:** 6.4.7.2
+*   **pdf2image:** 1.17.0 
 
 ## Usage
 ### 1. Prepare Your Hugging Face Dataset
