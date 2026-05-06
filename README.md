@@ -6,7 +6,7 @@ This repository provides a pipeline for generating an Arabic OCR dataset. The pi
 - **Text Preprocessing**: Splits Arabic text into manageable chunks.
 - **Font Variations**: Supports multiple Arabic fonts (Sakkal Majalla, Amiri, Arial, Calibri, Scheherazade New).
 - **DOCX Generation**: Creates formatted Microsoft Word documents.
-- **PDF Conversion**: Converts DOCX files to PDFs using python-docx.
+- **PDF Conversion**: Converts DOCX files to PDFs using libreoffice.
 - **Image Extraction**: Converts PDFs to high-resolution images.
 - **Base64 Encoding**: Stores images in Base64 format for easy integration.
 - **Dataset Management**: Uploads processed files to Hugging Face datasets.
