@@ -48,8 +48,12 @@ If the script stops, it will resume from the last processed index using `process
 Each batch of processed data is stored as a CSV file with the following columns:
 
 ```csv
-image_name,chunk,font_name,image_base64
-dataset_1.png,Sample text,Amiri,Base64 string
+image_name: Unique identifier for each image
+chunk: The text content associated with the image
+font_name: The font used in text rendering
+image_base64: Base64-encoded image representation
+sample_id: Unique ID
+article_link: Link of the source article
 ```
 
 
