@@ -55,5 +55,13 @@ image_base64: Base64-encoded image representation
 sample_id: Unique ID
 article_link: Link of the source article
 ```
+## Books Links
+For `books_links.pkl` it has the links for the used books in the statistical study for choosing the fonts in SARD dataset
+```python
+import pickle
+with open("books_links.pkl", "rb") as f:
+  data = f.load()
+print(data[0:])
+```
 
 
